@@ -11,12 +11,16 @@ Secure Communication
 ├── inc/
 │   ├── client_utility.h      # Header file for client utilities
 │   ├── server_utility.h      # Header file for server utilities
+
+
 ├── client/
 │   ├── client.c              # Main client application
 │   ├── client_logger.c       # Logging utility for client
 │   ├── encrypt_decrypt.c     # Encryption and decryption functions for client
 │   ├── receive_messages.c    # Threaded message receiving function for client
 │   ├── signal_handler.c      # Signal handler for client
+
+
 ├── server/
 │   ├── server.c              # Main server application
 │   ├── server_logger.c       # Logging utility for server
