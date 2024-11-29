@@ -25,5 +25,3 @@ Server
 
 # License
 This project is open-source and available under the MIT License. Contributions are welcome!
-
-Navigate to the server/ directory:
