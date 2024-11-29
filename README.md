@@ -7,22 +7,7 @@ This project is a simple multi-party conference chat application built in C usin
 Clients can register a new account with a username and password.
 Registered users can log in using their credentials.
 Secure Communication
-
-Messages, usernames, and passwords are encrypted before transmission.
-Multi-threaded Server
-
-Handles multiple clients concurrently.
-Broadcasts notifications when a new client joins.
-Signal Handling
-
-Gracefully handles termination signals (SIGINT) to ensure clean resource deallocation.
-Detailed Logging
-
-Maintains logs for debugging and monitoring using a custom logger.
-
 # Project Structure
-bash
-Copy code
 ├── inc/
 │   ├── client_utility.h      # Header file for client utilities
 │   ├── server_utility.h      # Header file for server utilities
